@@ -23,5 +23,4 @@ newRows = [
 
 writer = csv.writer(sys.stdout)
 writer.writerow(headers)
-for newRow in newRows:
-    writer.writerow(newRow)
+writer.writerows(newRows)
